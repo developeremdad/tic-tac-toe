@@ -8,15 +8,15 @@ let x = 0;
 for (let i = 0; i < 9; i++) {
    item[i].addEventListener('click', () => {
       if (x % 2 == 0) {
-         item[i].textContent = 'X';
+         item[i].textContent = '⚽';
          x++;
-         if (item[i].textContent == 'X') {
+         if (item[i].textContent == '⚽') {
             item[i].style.color = '#ffffff';
          }
       } else {
-         item[i].textContent = 'O';
+         item[i].textContent = '💖';
          x++;
-         if (item[i].textContent == 'O') {
+         if (item[i].textContent == '💖') {
             item[i].style.color = 'red';
          }
       }
