@@ -35,7 +35,7 @@ for (let i = 0; i < 9; i++) {
          item[4].textContent != '' &&
          item[5].textContent != ''
       ) {
-         para.innerHTML = `Congratulations! ${item[3].textContent} is winer`;
+         para.innerHTML = `Congratulations! ${item[3].textContent} is Winer`;
       } else if (
          item[6].textContent == item[7].textContent &&
          item[7].textContent == item[8].textContent &&
@@ -43,7 +43,7 @@ for (let i = 0; i < 9; i++) {
          item[7].textContent != '' &&
          item[8].textContent != ''
       ) {
-         para.innerHTML = `${item[6].textContent} is winer`;
+         para.innerHTML = `Congratulations! ${item[6].textContent} is Winer`;
       } else if (
          item[0].textContent == item[3].textContent &&
          item[3].textContent == item[6].textContent &&
@@ -51,7 +51,7 @@ for (let i = 0; i < 9; i++) {
          item[3].textContent != '' &&
          item[6].textContent != ''
       ) {
-         para.innerHTML = `${item[0].textContent} is winer`;
+         para.innerHTML = `Congratulations! ${item[0].textContent} is Winer`;
       } else if (
          item[1].textContent == item[4].textContent &&
          item[4].textContent == item[7].textContent &&
@@ -59,7 +59,7 @@ for (let i = 0; i < 9; i++) {
          item[4].textContent != '' &&
          item[7].textContent != ''
       ) {
-         para.innerHTML = `${item[1].textContent} is winer`;
+         para.innerHTML = `Congratulations! ${item[1].textContent} is Winer`;
       } else if (
          item[2].textContent == item[5].textContent &&
          item[5].textContent == item[8].textContent &&
@@ -67,7 +67,7 @@ for (let i = 0; i < 9; i++) {
          item[5].textContent != '' &&
          item[8].textContent != ''
       ) {
-         para.innerHTML = `${item[2].textContent} is winer`;
+         para.innerHTML = `Congratulations! ${item[2].textContent} is Winer`;
       } else if (
          item[0].textContent == item[4].textContent &&
          item[4].textContent == item[8].textContent &&
@@ -75,7 +75,7 @@ for (let i = 0; i < 9; i++) {
          item[4].textContent != '' &&
          item[8].textContent != ''
       ) {
-         para.innerHTML = `${item[0].textContent} is winer`;
+         para.innerHTML = `Congratulations! ${item[0].textContent} is Winer`;
       } else if (
          item[2].textContent == item[4].textContent &&
          item[4].textContent == item[6].textContent &&
@@ -83,10 +83,10 @@ for (let i = 0; i < 9; i++) {
          item[4].textContent != '' &&
          item[6].textContent != ''
       ) {
-         para.innerHTML = `${item[2].textContent} is winer`;
+         para.innerHTML = `Congratulations! ${item[2].textContent} is Winer`;
       } else {
          if (x === 9) {
-            para.innerHTML = 'Tie Match';
+            para.innerHTML = 'Draw Match!, Please Try again.';
          }
       }
    });
